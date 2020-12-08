@@ -1,13 +1,13 @@
 class Rope{
 
-    constructor(bodyA , pointB ){
+    constructor(bodyA , pointB){
 
         
     var options  = {
         bodyA : bodyA,
         pointB : pointB,
         stiffness: 1,
-        length : 700
+        length : 600
     }
 
     this.pointB = pointB
@@ -19,7 +19,7 @@ class Rope{
    
 
     display() {
-        if(this.rope.bodyA){
+       {
             var pointA = this.rope.bodyA.position;
             var pointB = this.pointB;
         stroke("blue")
